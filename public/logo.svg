@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="StakOceans.AI logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#26d1f9"/>
+      <stop offset="100%" stop-color="#0d4ba0"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="32" fill="#071225"/>
+  <rect x="45" y="50" width="110" height="110" rx="18" fill="url(#g1)"/>
+  <path d="M70 90c15-25 45-25 60 0" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M80 90c8-12 32-12 40 0" stroke="#aef1ff" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M85 98c12-8 18-8 30 0" stroke="#e6fdff" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="72" cy="125" r="6" fill="#f5fcff"/>
+  <circle cx="128" cy="125" r="6" fill="#f5fcff"/>
+  <path d="M75 120c6 5 44 5 50 0" stroke="#e6fdff" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M56 70h6m-12 12h10m-6 14h8m-2 14h10m32-52h8m6 12h10m-2 14h12m-6 14h10" stroke="#b5ebff" stroke-width="5" stroke-linecap="round"/>
+  <text x="100" y="172" font-size="26" font-family="Inter, Arial, sans-serif" font-weight="700" text-anchor="middle" fill="#e7f4ff">StakOceans.AI</text>
+</svg>

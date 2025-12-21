@@ -1,0 +1,94 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  background: var(--page-gradient);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--page-glow);
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  padding: 70px 0 28px;
+  display: grid;
+  gap: 12px;
+}
+
+.section {
+  padding: 52px 0;
+}
+
+.grid {
+  display: grid;
+  /* there is no extra space will be there all the thing will look close */
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--card) 0%, var(--card-alt) 100%);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.logosRail {
+  overflow: hidden;
+  /* border: 1px solid var(--border); */
+  /* border-radius: var(--radius); */
+  /* background: linear-gradient(180deg, var(--card) 0%, var(--card-alt) 100%); */
+  margin-top: 5rem;
+}
+
+/* Show the fade start and of logosRail */
+.logoImage {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 3rem;
+}
+
+.railTrack {
+  display: flex;
+  gap: 16px;
+  padding: 14px;
+  animation: scroll 20s linear infinite;
+  width: max-content;
+}
+
+.railItem {
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  font-weight: 800;
+  color: var(--text);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+

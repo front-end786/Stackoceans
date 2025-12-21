@@ -1,0 +1,27 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  background: var(--page-gradient);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--page-glow);
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  padding: 70px 0 28px;
+  display: grid;
+  gap: 12px;
+}
+
+

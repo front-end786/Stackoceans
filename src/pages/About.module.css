@@ -1,0 +1,56 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  background: var(--page-gradient);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--page-glow);
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  padding: 70px 0 28px;
+  display: grid;
+  gap: 12px;
+}
+
+.section {
+  padding: 52px 0;
+}
+
+.grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--card) 0%, var(--card-alt) 100%);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 800;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+

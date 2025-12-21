@@ -1,0 +1,394 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/asadullah/Desktop/stackoceansai/.npmrc
+5 silly config load:file:/Users/asadullah/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install react react-dom react-router-dom framer-motion echarts echarts-for-react @reduxjs/toolkit react-redux react-hook-form @hookform/resolvers zod react-hot-toast classnames
+8 verbose argv "install" "react" "react-dom" "react-router-dom" "framer-motion" "echarts" "echarts-for-react" "@reduxjs/toolkit" "react-redux" "react-hook-form" "@hookform/resolvers" "zod" "react-hot-toast" "classnames"
+9 verbose logfile logs-max:10 dir:/Users/asadullah/Desktop/stackoceansai/.npm-cache/_logs/2025-12-11T13_37_53_473Z-
+10 verbose logfile /Users/asadullah/Desktop/stackoceansai/.npm-cache/_logs/2025-12-11T13_37_53_473Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest react@*
+15 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react 2891ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+18 silly fetch manifest react-dom@*
+19 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react-dom 2839ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+22 silly fetch manifest react-router-dom@*
+23 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react-router-dom 857ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+26 silly fetch manifest framer-motion@*
+27 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/framer-motion 2125ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/framer-motion set size:undefined disposed:false
+30 silly fetch manifest @emotion/is-prop-valid@*
+31 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 216ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@emotion%2fis-prop-valid set size:undefined disposed:false
+34 silly fetch manifest echarts@*
+35 silly packumentCache full:https://registry.npmjs.org/echarts cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/echarts 242ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/echarts set size:undefined disposed:false
+38 silly fetch manifest echarts-for-react@*
+39 silly packumentCache full:https://registry.npmjs.org/echarts-for-react cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/echarts-for-react 1006ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/echarts-for-react set size:undefined disposed:false
+42 silly fetch manifest @reduxjs/toolkit@*
+43 silly packumentCache full:https://registry.npmjs.org/@reduxjs%2ftoolkit cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@reduxjs%2ftoolkit 450ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@reduxjs%2ftoolkit set size:undefined disposed:false
+46 silly fetch manifest react-redux@*
+47 silly packumentCache full:https://registry.npmjs.org/react-redux cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/react-redux 412ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/react-redux set size:undefined disposed:false
+50 silly fetch manifest @types/react@^18.2.25 || ^19
+51 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@types%2freact 1090ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+54 silly fetch manifest redux@^5.0.0
+55 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/redux 269ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/redux set size:undefined disposed:false
+58 silly fetch manifest react-hook-form@*
+59 silly packumentCache full:https://registry.npmjs.org/react-hook-form cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/react-hook-form 2277ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/react-hook-form set size:undefined disposed:false
+62 silly fetch manifest @hookform/resolvers@*
+63 silly packumentCache full:https://registry.npmjs.org/@hookform%2fresolvers cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/@hookform%2fresolvers 420ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@hookform%2fresolvers set size:undefined disposed:false
+66 silly fetch manifest zod@*
+67 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/zod 1604ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+70 silly fetch manifest react-hot-toast@*
+71 silly packumentCache full:https://registry.npmjs.org/react-hot-toast cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/react-hot-toast 424ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/react-hot-toast set size:undefined disposed:false
+74 silly fetch manifest classnames@*
+75 silly packumentCache full:https://registry.npmjs.org/classnames cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/classnames 184ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/classnames set size:undefined disposed:false
+78 silly placeDep ROOT @hookform/resolvers@5.2.2 OK for: stackoceansai@1.0.0 want: *
+79 silly placeDep ROOT react-hook-form@7.68.0 OK for: @hookform/resolvers@5.2.2 want: ^7.55.0
+80 silly placeDep ROOT react@19.2.1 OK for: react-hook-form@7.68.0 want: ^16.8.0 || ^17 || ^18 || ^19
+81 silly placeDep ROOT @reduxjs/toolkit@2.11.1 OK for: stackoceansai@1.0.0 want: *
+82 silly placeDep ROOT classnames@2.5.1 OK for: stackoceansai@1.0.0 want: *
+83 silly placeDep ROOT echarts@6.0.0 OK for: stackoceansai@1.0.0 want: *
+84 silly placeDep ROOT echarts-for-react@3.0.5 OK for: stackoceansai@1.0.0 want: *
+85 silly placeDep ROOT framer-motion@12.23.26 OK for: stackoceansai@1.0.0 want: *
+86 silly placeDep ROOT react@19.2.1 REPLACE for: stackoceansai@1.0.0 want: *
+87 silly placeDep ROOT react-dom@19.2.1 OK for: stackoceansai@1.0.0 want: *
+88 silly placeDep ROOT react-hook-form@7.68.0 REPLACE for: stackoceansai@1.0.0 want: *
+89 silly placeDep ROOT react-hot-toast@2.6.0 OK for: stackoceansai@1.0.0 want: *
+90 silly placeDep ROOT react-redux@9.2.0 OK for: stackoceansai@1.0.0 want: *
+91 silly placeDep ROOT react-router-dom@7.10.1 OK for: stackoceansai@1.0.0 want: *
+92 silly placeDep ROOT zod@4.1.13 OK for: stackoceansai@1.0.0 want: *
+93 silly fetch manifest @standard-schema/utils@^0.3.0
+94 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils cache-miss
+95 silly fetch manifest @standard-schema/spec@^1.0.0
+96 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec cache-miss
+97 silly fetch manifest @standard-schema/utils@^0.3.0
+98 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2futils 201ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils set size:undefined disposed:false
+101 silly fetch manifest immer@^11.0.0
+102 silly packumentCache full:https://registry.npmjs.org/immer cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/immer 480ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/immer set size:undefined disposed:false
+105 silly fetch manifest redux@^5.0.1
+106 silly packumentCache full:https://registry.npmjs.org/redux cache-miss
+107 http cache https://registry.npmjs.org/redux 11ms (cache hit)
+108 silly packumentCache full:https://registry.npmjs.org/redux set size:553833 disposed:false
+109 silly fetch manifest redux-thunk@^3.1.0
+110 silly packumentCache full:https://registry.npmjs.org/redux-thunk cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/redux-thunk 180ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/redux-thunk set size:undefined disposed:false
+113 silly fetch manifest reselect@^5.1.0
+114 silly packumentCache full:https://registry.npmjs.org/reselect cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/reselect 420ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/reselect set size:undefined disposed:false
+117 silly fetch manifest tslib@2.3.0
+118 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2futils 1361ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2futils set size:undefined disposed:false
+121 silly fetch manifest zrender@6.0.0
+122 silly packumentCache full:https://registry.npmjs.org/zrender cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/tslib 88ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+125 silly fetch manifest size-sensor@^1.0.1
+126 silly packumentCache full:https://registry.npmjs.org/size-sensor cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/zrender 249ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/zrender set size:undefined disposed:false
+129 silly fetch manifest fast-deep-equal@^3.1.3
+130 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 177ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:undefined disposed:false
+133 silly fetch manifest motion-dom@^12.23.23
+134 silly packumentCache full:https://registry.npmjs.org/motion-dom cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2fspec 1977ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec set size:undefined disposed:false
+137 silly fetch manifest motion-utils@^12.23.6
+138 silly packumentCache full:https://registry.npmjs.org/motion-utils cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/motion-dom 457ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/motion-dom set size:undefined disposed:false
+141 silly fetch manifest tslib@^2.4.0
+142 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+143 http cache https://registry.npmjs.org/tslib 6ms (cache hit)
+144 silly packumentCache full:https://registry.npmjs.org/tslib set size:108760 disposed:false
+145 silly fetch manifest scheduler@^0.27.0
+146 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/size-sensor 871ms (cache miss)
+148 silly packumentCache full:https://registry.npmjs.org/size-sensor set size:undefined disposed:false
+149 silly fetch manifest csstype@^3.1.3
+150 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/csstype 270ms (cache miss)
+152 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+153 silly fetch manifest goober@^2.1.16
+154 silly packumentCache full:https://registry.npmjs.org/goober cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/motion-utils 1174ms (cache miss)
+156 silly packumentCache full:https://registry.npmjs.org/motion-utils set size:undefined disposed:false
+157 silly fetch manifest @types/use-sync-external-store@^0.0.6
+158 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/goober 1286ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/goober set size:undefined disposed:false
+161 silly fetch manifest use-sync-external-store@^1.4.0
+162 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/@types%2fuse-sync-external-store 1053ms (cache miss)
+164 silly packumentCache full:https://registry.npmjs.org/@types%2fuse-sync-external-store set size:undefined disposed:false
+165 silly fetch manifest react-router@7.10.1
+166 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/react-router 4719ms (cache miss)
+168 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+169 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store 6981ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/use-sync-external-store set size:undefined disposed:false
+171 http fetch GET 200 https://registry.npmjs.org/scheduler 11531ms (cache miss)
+172 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+173 silly placeDep ROOT @standard-schema/utils@0.3.0 OK for: @hookform/resolvers@5.2.2 want: ^0.3.0
+174 silly placeDep ROOT @standard-schema/spec@1.0.0 OK for: @reduxjs/toolkit@2.11.1 want: ^1.0.0
+175 silly placeDep ROOT immer@11.0.1 OK for: @reduxjs/toolkit@2.11.1 want: ^11.0.0
+176 silly placeDep ROOT redux@5.0.1 OK for: @reduxjs/toolkit@2.11.1 want: ^5.0.1
+177 silly placeDep ROOT redux-thunk@3.1.0 OK for: @reduxjs/toolkit@2.11.1 want: ^3.1.0
+178 silly placeDep ROOT reselect@5.1.1 OK for: @reduxjs/toolkit@2.11.1 want: ^5.1.0
+179 silly placeDep ROOT tslib@2.3.0 OK for: echarts@6.0.0 want: 2.3.0
+180 silly placeDep ROOT zrender@6.0.0 OK for: echarts@6.0.0 want: 6.0.0
+181 silly placeDep ROOT fast-deep-equal@3.1.3 OK for: echarts-for-react@3.0.5 want: ^3.1.3
+182 silly placeDep ROOT size-sensor@1.0.2 OK for: echarts-for-react@3.0.5 want: ^1.0.1
+183 silly placeDep ROOT motion-dom@12.23.23 OK for: framer-motion@12.23.26 want: ^12.23.23
+184 silly placeDep ROOT motion-utils@12.23.6 OK for: framer-motion@12.23.26 want: ^12.23.6
+185 silly placeDep node_modules/framer-motion tslib@2.8.1 OK for: framer-motion@12.23.26 want: ^2.4.0
+186 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.1 want: ^0.27.0
+187 silly placeDep ROOT csstype@3.2.3 OK for: react-hot-toast@2.6.0 want: ^3.1.3
+188 silly placeDep ROOT goober@2.1.18 OK for: react-hot-toast@2.6.0 want: ^2.1.16
+189 silly fetch manifest react@^18.0 || ^19
+190 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+191 http cache https://registry.npmjs.org/react 30ms (cache hit)
+192 silly packumentCache full:https://registry.npmjs.org/react set size:6320654 disposed:false
+193 silly placeDep ROOT @types/use-sync-external-store@0.0.6 OK for: react-redux@9.2.0 want: ^0.0.6
+194 silly placeDep ROOT use-sync-external-store@1.6.0 OK for: react-redux@9.2.0 want: ^1.4.0
+195 silly fetch manifest react@>=18
+196 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+197 http cache https://registry.npmjs.org/react 17ms (cache hit)
+198 silly packumentCache full:https://registry.npmjs.org/react set size:6320654 disposed:false
+199 silly fetch manifest react-dom@>=18
+200 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+201 http cache https://registry.npmjs.org/react-dom 20ms (cache hit)
+202 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8303213 disposed:false
+203 silly placeDep ROOT react-router@7.10.1 OK for: react-router-dom@7.10.1 want: 7.10.1
+204 silly fetch manifest cookie@^1.0.1
+205 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+206 silly fetch manifest set-cookie-parser@^2.6.0
+207 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 179ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser set size:undefined disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/cookie 417ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+212 silly placeDep ROOT cookie@1.1.1 OK for: react-router@7.10.1 want: ^1.0.1
+213 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.10.1 want: ^2.6.0
+214 silly reify moves {}
+215 silly audit bulk request {
+215 silly audit   '@hookform/resolvers': [ '5.2.2' ],
+215 silly audit   '@reduxjs/toolkit': [ '2.11.1' ],
+215 silly audit   classnames: [ '2.5.1' ],
+215 silly audit   echarts: [ '6.0.0' ],
+215 silly audit   'echarts-for-react': [ '3.0.5' ],
+215 silly audit   'framer-motion': [ '12.23.26' ],
+215 silly audit   react: [ '19.2.1' ],
+215 silly audit   'react-dom': [ '19.2.1' ],
+215 silly audit   'react-hook-form': [ '7.68.0' ],
+215 silly audit   'react-hot-toast': [ '2.6.0' ],
+215 silly audit   'react-redux': [ '9.2.0' ],
+215 silly audit   'react-router-dom': [ '7.10.1' ],
+215 silly audit   zod: [ '4.1.13' ],
+215 silly audit   '@standard-schema/utils': [ '0.3.0' ],
+215 silly audit   '@standard-schema/spec': [ '1.0.0' ],
+215 silly audit   immer: [ '11.0.1' ],
+215 silly audit   redux: [ '5.0.1' ],
+215 silly audit   'redux-thunk': [ '3.1.0' ],
+215 silly audit   reselect: [ '5.1.1' ],
+215 silly audit   tslib: [ '2.3.0', '2.8.1' ],
+215 silly audit   zrender: [ '6.0.0' ],
+215 silly audit   'fast-deep-equal': [ '3.1.3' ],
+215 silly audit   'size-sensor': [ '1.0.2' ],
+215 silly audit   'motion-dom': [ '12.23.23' ],
+215 silly audit   'motion-utils': [ '12.23.6' ],
+215 silly audit   scheduler: [ '0.27.0' ],
+215 silly audit   csstype: [ '3.2.3' ],
+215 silly audit   goober: [ '2.1.18' ],
+215 silly audit   '@types/use-sync-external-store': [ '0.0.6' ],
+215 silly audit   'use-sync-external-store': [ '1.6.0' ],
+215 silly audit   'react-router': [ '7.10.1' ],
+215 silly audit   cookie: [ '1.1.1' ],
+215 silly audit   'set-cookie-parser': [ '2.7.2' ]
+215 silly audit }
+216 http cache set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 0ms (cache hit)
+217 http cache use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz 1ms (cache hit)
+218 http cache @types/use-sync-external-store@https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz 0ms (cache hit)
+219 http cache goober@https://registry.npmjs.org/goober/-/goober-2.1.18.tgz 0ms (cache hit)
+220 http cache react-router@https://registry.npmjs.org/react-router/-/react-router-7.10.1.tgz 0ms (cache hit)
+221 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz 0ms (cache hit)
+222 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+223 http cache motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz 0ms (cache hit)
+224 http cache motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz 0ms (cache hit)
+225 http cache size-sensor@https://registry.npmjs.org/size-sensor/-/size-sensor-1.0.2.tgz 0ms (cache hit)
+226 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+227 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz 0ms (cache hit)
+228 http cache reselect@https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz 0ms (cache hit)
+229 http cache zrender@https://registry.npmjs.org/zrender/-/zrender-6.0.0.tgz 0ms (cache hit)
+230 http cache redux-thunk@https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz 0ms (cache hit)
+231 http cache redux@https://registry.npmjs.org/redux/-/redux-5.0.1.tgz 0ms (cache hit)
+232 http cache immer@https://registry.npmjs.org/immer/-/immer-11.0.1.tgz 0ms (cache hit)
+233 http cache @standard-schema/utils@https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz 0ms (cache hit)
+234 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz 0ms (cache hit)
+235 http cache zod@https://registry.npmjs.org/zod/-/zod-4.1.13.tgz 0ms (cache hit)
+236 http cache react-redux@https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz 0ms (cache hit)
+237 http cache react-hot-toast@https://registry.npmjs.org/react-hot-toast/-/react-hot-toast-2.6.0.tgz 0ms (cache hit)
+238 http cache react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.10.1.tgz 0ms (cache hit)
+239 http cache react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.68.0.tgz 0ms (cache hit)
+240 http cache react@https://registry.npmjs.org/react/-/react-19.2.1.tgz 0ms (cache hit)
+241 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.1.tgz 0ms (cache hit)
+242 http cache framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.26.tgz 0ms (cache hit)
+243 http cache echarts-for-react@https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-3.0.5.tgz 0ms (cache hit)
+244 http cache echarts@https://registry.npmjs.org/echarts/-/echarts-6.0.0.tgz 0ms (cache hit)
+245 http cache classnames@https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz 0ms (cache hit)
+246 http cache @hookform/resolvers@https://registry.npmjs.org/@hookform/resolvers/-/resolvers-5.2.2.tgz 0ms (cache hit)
+247 http cache @reduxjs/toolkit@https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.11.1.tgz 0ms (cache hit)
+248 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+249 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+250 silly tarball no local data for set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz. Extracting by manifest.
+251 silly tarball no local data for use-sync-external-store@https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz. Extracting by manifest.
+252 silly tarball no local data for @types/use-sync-external-store@https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz. Extracting by manifest.
+253 silly tarball no local data for goober@https://registry.npmjs.org/goober/-/goober-2.1.18.tgz. Extracting by manifest.
+254 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-7.10.1.tgz. Extracting by manifest.
+255 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz. Extracting by manifest.
+256 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+257 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz. Extracting by manifest.
+258 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz. Extracting by manifest.
+259 silly tarball no local data for size-sensor@https://registry.npmjs.org/size-sensor/-/size-sensor-1.0.2.tgz. Extracting by manifest.
+260 silly tarball no local data for fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz. Extracting by manifest.
+261 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz. Extracting by manifest.
+262 silly tarball no local data for reselect@https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz. Extracting by manifest.
+263 silly tarball no local data for zrender@https://registry.npmjs.org/zrender/-/zrender-6.0.0.tgz. Extracting by manifest.
+264 silly tarball no local data for redux-thunk@https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz. Extracting by manifest.
+265 silly tarball no local data for redux@https://registry.npmjs.org/redux/-/redux-5.0.1.tgz. Extracting by manifest.
+266 silly tarball no local data for immer@https://registry.npmjs.org/immer/-/immer-11.0.1.tgz. Extracting by manifest.
+267 silly tarball no local data for @standard-schema/utils@https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz. Extracting by manifest.
+268 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz. Extracting by manifest.
+269 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-4.1.13.tgz. Extracting by manifest.
+270 silly tarball no local data for react-redux@https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz. Extracting by manifest.
+271 silly tarball no local data for react-hot-toast@https://registry.npmjs.org/react-hot-toast/-/react-hot-toast-2.6.0.tgz. Extracting by manifest.
+272 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.10.1.tgz. Extracting by manifest.
+273 silly tarball no local data for react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.68.0.tgz. Extracting by manifest.
+274 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.1.tgz. Extracting by manifest.
+275 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.1.tgz. Extracting by manifest.
+276 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.26.tgz. Extracting by manifest.
+277 silly tarball no local data for echarts-for-react@https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-3.0.5.tgz. Extracting by manifest.
+278 silly tarball no local data for echarts@https://registry.npmjs.org/echarts/-/echarts-6.0.0.tgz. Extracting by manifest.
+279 silly tarball no local data for classnames@https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz. Extracting by manifest.
+280 silly tarball no local data for @hookform/resolvers@https://registry.npmjs.org/@hookform/resolvers/-/resolvers-5.2.2.tgz. Extracting by manifest.
+281 silly tarball no local data for @reduxjs/toolkit@https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.11.1.tgz. Extracting by manifest.
+282 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+283 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+284 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 86ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/redux-thunk/-/redux-thunk-3.1.0.tgz 145ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz 172ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz 936ms (cache miss)
+288 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1062ms
+289 silly audit report {}
+290 http fetch GET 200 https://registry.npmjs.org/@standard-schema/utils/-/utils-0.3.0.tgz 1209ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz 1377ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz 1632ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/size-sensor/-/size-sensor-1.0.2.tgz 2287ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/goober/-/goober-2.1.18.tgz 2431ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 2551ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.10.1.tgz 2903ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/react-redux/-/react-redux-9.2.0.tgz 3613ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/redux/-/redux-5.0.1.tgz 3651ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz 3685ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 3731ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-12.23.6.tgz 4213ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-3.0.5.tgz 4344ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.1.tgz 5102ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz 5159ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 5881ms (cache miss)
+306 http fetch GET 200 https://registry.npmjs.org/react-hot-toast/-/react-hot-toast-2.6.0.tgz 6169ms (cache miss)
+307 http fetch GET 200 https://registry.npmjs.org/immer/-/immer-11.0.1.tgz 6336ms (cache miss)
+308 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-7.10.1.tgz 6951ms (cache miss)
+309 http fetch GET 200 https://registry.npmjs.org/reselect/-/reselect-5.1.1.tgz 7417ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/@hookform/resolvers/-/resolvers-5.2.2.tgz 7671ms (cache miss)
+311 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-12.23.23.tgz 8737ms (cache miss)
+312 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 8944ms (cache miss)
+313 http fetch GET 200 https://registry.npmjs.org/zrender/-/zrender-6.0.0.tgz 9618ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-12.23.26.tgz 9802ms (cache miss)
+315 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-4.1.13.tgz 10416ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.68.0.tgz 13803ms (cache miss)
+317 http fetch GET 200 https://registry.npmjs.org/@reduxjs/toolkit/-/toolkit-2.11.1.tgz 17604ms (cache miss)
+318 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.1.tgz 25091ms (cache miss)
+319 http fetch GET 200 https://registry.npmjs.org/echarts/-/echarts-6.0.0.tgz 67445ms (cache miss)
+320 silly ADD node_modules/set-cookie-parser
+321 silly ADD node_modules/cookie
+322 silly ADD node_modules/react-router
+323 silly ADD node_modules/use-sync-external-store
+324 silly ADD node_modules/@types/use-sync-external-store
+325 silly ADD node_modules/goober
+326 silly ADD node_modules/csstype
+327 silly ADD node_modules/scheduler
+328 silly ADD node_modules/motion-utils
+329 silly ADD node_modules/motion-dom
+330 silly ADD node_modules/size-sensor
+331 silly ADD node_modules/fast-deep-equal
+332 silly ADD node_modules/zrender
+333 silly ADD node_modules/tslib
+334 silly ADD node_modules/reselect
+335 silly ADD node_modules/redux-thunk
+336 silly ADD node_modules/redux
+337 silly ADD node_modules/immer
+338 silly ADD node_modules/@standard-schema/spec
+339 silly ADD node_modules/@standard-schema/utils
+340 silly ADD node_modules/zod
+341 silly ADD node_modules/react-router-dom
+342 silly ADD node_modules/react-redux
+343 silly ADD node_modules/react-hot-toast
+344 silly ADD node_modules/react-hook-form
+345 silly ADD node_modules/react-dom
+346 silly ADD node_modules/react
+347 silly ADD node_modules/framer-motion
+348 silly ADD node_modules/framer-motion/node_modules/tslib
+349 silly ADD node_modules/echarts-for-react
+350 silly ADD node_modules/echarts
+351 silly ADD node_modules/classnames
+352 silly ADD node_modules/@reduxjs/toolkit
+353 silly ADD node_modules/@hookform/resolvers
+354 verbose cwd /Users/asadullah/Desktop/stackoceansai
+355 verbose os Darwin 22.6.0
+356 verbose node v24.11.1
+357 verbose npm  v11.6.2
+358 verbose exit 0
+359 info ok

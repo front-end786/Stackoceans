@@ -1,0 +1,109 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  background: var(--page-gradient);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--page-glow);
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  padding: 64px 0 24px;
+  display: grid;
+  gap: 12px;
+}
+
+.section {
+  padding: 64px 0 0;
+}
+
+.processGrid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.processCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  background: linear-gradient(180deg, var(--card) 0%, var(--card-alt) 100%);
+  box-shadow: var(--shadow);
+}
+
+.processTitle {
+  margin: 0 0 6px;
+  font-weight: 800;
+}
+
+.processBody {
+  margin: 0;
+  color: var(--muted);
+}
+
+.pillars {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.pillarCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  background: linear-gradient(180deg, var(--card) 0%, var(--card-alt) 100%);
+  box-shadow: var(--shadow);
+}
+
+.pillarHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+}
+
+.pillarCard p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.engagements {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.engagementCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  background: linear-gradient(180deg, var(--card) 0%, var(--card-alt) 100%);
+  box-shadow: var(--shadow);
+}
+
+.engagementTitle {
+  margin: 0 0 6px;
+  font-weight: 800;
+}
+
+.engagementDetail {
+  margin: 0;
+  color: var(--muted);
+}
+
+
+

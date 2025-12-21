@@ -1,0 +1,22 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  background: var(--page-gradient);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--page-glow);
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
