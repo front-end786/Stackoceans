@@ -14,7 +14,7 @@ const cards = [
     body: "Multi-tenant SaaS foundations with billing, auth, analytics, and growth hooks.",
   },
   {
-    img: "Ai-trading.png",
+    img: "ai-trading.png",
     title: "AI Trading",
     body: "Data ingestion, signal research, risk controls, and execution dashboards.",
   },

@@ -12,8 +12,10 @@ import styles from "./Contact.module.css";
 const schema = z.object({
   name: z.string().min(2, "Name is required"),
   email: z.string().email("Enter a valid email"),
-  project: z.string().min(10, "Tell us a bit more about the project"),
-  budget: z.string().optional(),
+  phone: z.string().min(1, "Phone is required"),
+  industry: z.string().min(1, "Industry is required"),
+  message: z.string().min(10, "Tell us a bit more about the project"),
+  // budget: z.string().optional(),
 });
 
 const Contact = () => {
@@ -21,8 +23,10 @@ const Contact = () => {
     () => ({
       name: "",
       email: "",
-      project: "",
-      budget: "",
+      phone: "",
+      industry: "",
+      message: "",
+      // budget: "",
     }),
     []
   );
@@ -41,43 +45,36 @@ const Contact = () => {
   // Corrected Submit Handler (Restored async/await)
   // --------------------
   const onSubmit = async (data) => {
-    // 1. Convert validated data object into a FormData object
-    const formdata = new FormData();
-    for (const key in data) {
-      formdata.append(key, data[key] || "");
-    }
-
-    try {
-      // 2. Await the fetch request
-      const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbxTD1PATNk1XMZxRMzvW3Lyfq69pZ9hOza9b53ohwAqDgfVazjjADl1Ae8iFlcgLb4S_g/exec",
-        {
-          method: "POST",
-          body: formdata,
-        }
-      );
-
-      // Check for network/HTTP errors (e.g., 404, 500)
+    const promise = fetch("http://localhost:3000/api/email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then(async (response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-
-      // 3. Await the JSON parsing
       const result = await response.json();
-
-      // Check for application-level errors returned by the Google Script
       if (!result.success) {
         throw new Error(
           result.message || "Submission failed via Google Script"
         );
       }
+      return result;
+    });
 
-      toast.success("Thanks! We’ll respond within 24 hours.");
-      reset(defaultValues);
-    } catch (error) {
-      console.error("Contact form error:", error);
-      toast.error("Something went wrong. Please try again.");
-    }
+    await toast.promise(promise, {
+      loading: "Sending message...",
+      success: () => {
+        reset(defaultValues);
+        return "Thanks! We’ll respond within 24 hours.";
+      },
+      error: (err) => {
+        console.error("Contact form error:", err);
+        return "Something went wrong. Please try again.";
+      },
+    });
   };
 
   return (
@@ -118,25 +115,35 @@ const Contact = () => {
           </label>
 
           <label className={styles.field}>
-            <span>Project</span>
+            <span>Phone</span>
             {/* FIX: Added name attribute for FormData compatibility */}
-            <textarea
-              name="project"
-              placeholder="What are you building?"
-              rows={4}
-              {...register("project")}
+            <input
+              name="phone"
+              placeholder="e.g., +1234567890"
+              {...register("phone")}
             />
-            {errors.project && <small>{errors.project.message}</small>}
           </label>
 
           <label className={styles.field}>
-            <span>Budget / timeline (optional)</span>
+            <span>Industry</span>
             {/* FIX: Added name attribute for FormData compatibility */}
             <input
-              name="budget"
-              placeholder="e.g., 6 weeks, $60k"
-              {...register("budget")}
+              name="industry"
+              placeholder="e.g., SaaS, Web3, AI"
+              {...register("industry")}
             />
+          </label>
+
+          <label className={styles.field}>
+            <span>Project</span>
+            {/* FIX: Added name attribute for FormData compatibility */}
+            <textarea
+              name="message"
+              placeholder="What are you building?"
+              rows={4}
+              {...register("message")}
+            />
+            {errors.message && <small>{errors.message.message}</small>}
           </label>
 
           <button
@@ -153,5 +160,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
