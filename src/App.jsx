@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import ServicesPage from "./Pages/Services";
-import AboutPage from "./Pages/About";
-import TrustedPage from "./Pages/Trusted";
-import CareersPage from "./Pages/Careers";
-import BlogPage from "./Pages/Blog";
-import ContactPage from "./Pages/ContactPage";
+import Home from "./pages/Home";
+import ServicesPage from "./pages/Services";
+import AboutPage from "./pages/About";
+import TrustedPage from "./pages/Trusted";
+import CareersPage from "./pages/Careers";
+import BlogPage from "./pages/Blog";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   const theme = useSelector((state) => state.ui.theme);
