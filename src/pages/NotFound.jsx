@@ -44,7 +44,7 @@ const NotFound = () => {
                 </button>
                 <Link to="/services" className={styles.secondary}>
                   <Search size={18} />
-                  Explore our Services
+                  Explore Services
                 </Link>
               </div>
 
