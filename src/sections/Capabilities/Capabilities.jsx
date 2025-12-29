@@ -83,3 +83,4 @@ const Capabilities = ({ items }) => {
 export default Capabilities;
 
 
+
