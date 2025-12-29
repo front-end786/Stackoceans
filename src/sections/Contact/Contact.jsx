@@ -45,7 +45,7 @@ const Contact = () => {
   // Corrected Submit Handler (Restored async/await)
   // --------------------
   const onSubmit = async (data) => {
-    const promise = fetch("http://localhost:3000/api/email", {
+    const promise = fetch("https://stack-oceans-backend.vercel.app/api/email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
