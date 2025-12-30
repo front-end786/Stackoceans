@@ -77,6 +77,19 @@ button {
 .app-shell {
   width: min(1200px, 90vw);
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-shell {
+    padding: 0 12px;
+  }
 }
 
 .section {
@@ -98,6 +111,20 @@ button {
   font-size: 1rem;
 }
 
+@media (max-width: 640px) {
+  .pill {
+    padding: .4rem 2rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pill {
+    padding: .35rem 1.5rem;
+    font-size: 0.8rem;
+  }
+}
+
 .headline {
   font-size: clamp(32px, 5vw, 48px);
   margin: 12px 0 10px;
@@ -108,6 +135,18 @@ button {
   color: var(--muted);
   max-width: 720px;
   font-size: 17px;
+}
+
+@media (max-width: 640px) {
+  .subhead {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subhead {
+    font-size: 14px;
+  }
 }
 
 .gradient-text {
@@ -132,6 +171,7 @@ button {
     padding: 56px 0;
   }
 }
+
 
 
 

@@ -96,6 +96,61 @@
   font-size: 1rem;
 }
 
+@media (max-width: 900px) {
+  .head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tabs {
+    width: 100%;
+  }
+
+  .tab {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .panelInner {
+    padding: 16px;
+  }
+
+  .panelTitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab {
+    width: 100%;
+  }
+
+  .panelInner {
+    padding: 14px;
+  }
+
+  .panelTitle {
+    font-size: 16px;
+  }
+
+  .panelDesc {
+    font-size: 14px;
+  }
+
+  .badgeSpan {
+    font-size: 0.875rem;
+    padding: .4rem 1.2rem;
+  }
+}
+
+
 
 
 

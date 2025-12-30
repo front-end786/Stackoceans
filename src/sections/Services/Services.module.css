@@ -51,11 +51,53 @@
   border: 1px solid rgba(45, 212, 255, 0.3);
 }
 
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+  }
+
+  .card {
+    min-height: auto;
+    padding: 16px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media (max-width: 720px) {
   .head {
     flex-direction: column;
   }
+
+  .glow {
+    width: 80px;
+    height: 80px;
+  }
 }
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    padding: 14px;
+  }
+
+  .card h3 {
+    font-size: 15px;
+  }
+}
+
 
 
 
