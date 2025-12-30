@@ -29,10 +29,11 @@
 }
 
 .grid {
-  display: grid;
+  display: flex;
   /* there is no extra space will be there all the thing will look close */
   gap: 20px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
+  flex-wrap: wrap;
 
 
 }

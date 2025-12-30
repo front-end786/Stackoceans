@@ -15,7 +15,7 @@
 
 .page > * {
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .hero {
@@ -29,9 +29,10 @@
 }
 
 .grid {
-  display: grid;
+  display: flex;
   gap: 14px;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  flex-wrap: wrap;
 }
 
 .card {
